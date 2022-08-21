@@ -13,6 +13,7 @@
 		EB9AD70128B1E5B800ABD274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB9AD6FF28B1E5B800ABD274 /* Main.storyboard */; };
 		EB9AD70328B1E5B900ABD274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB9AD70228B1E5B900ABD274 /* Assets.xcassets */; };
 		EB9AD70628B1E5B900ABD274 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB9AD70428B1E5B900ABD274 /* LaunchScreen.storyboard */; };
+		EB9AD70E28B1E5DF00ABD274 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EB9AD70D28B1E5DF00ABD274 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EB9AD70228B1E5B900ABD274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB9AD70528B1E5B900ABD274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB9AD70728B1E5B900ABD274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB9AD70D28B1E5DF00ABD274 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				EB9AD6FF28B1E5B800ABD274 /* Main.storyboard */,
 				EB9AD70228B1E5B900ABD274 /* Assets.xcassets */,
 				EB9AD70428B1E5B900ABD274 /* LaunchScreen.storyboard */,
+				EB9AD70D28B1E5DF00ABD274 /* Inceptionv3.mlmodel */,
 				EB9AD70728B1E5B900ABD274 /* Info.plist */,
 			);
 			path = "Hotdog CoreML";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB9AD6FE28B1E5B800ABD274 /* ViewController.swift in Sources */,
+				EB9AD70E28B1E5DF00ABD274 /* Inceptionv3.mlmodel in Sources */,
 				EB9AD6FA28B1E5B800ABD274 /* AppDelegate.swift in Sources */,
 				EB9AD6FC28B1E5B800ABD274 /* SceneDelegate.swift in Sources */,
 			);
